@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3563098171688831182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3563098171688831168}
+  - component: {fileID: 3563098171688831183}
+  m_Layer: 0
+  m_Name: BoardGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3563098171688831168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3563098171688831182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3563098171688831183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3563098171688831182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3495618fb5225d544b03eea078b54d9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameSpeed: 0.06
+  boardSpace: {fileID: 1232744957356000430, guid: a8a6f5fd6c8208c40ae58b409ea69ef2,
+    type: 3}
+  startSpace: {fileID: 8598195061674830605, guid: e00f85e4f67291b428de189278a142b9,
+    type: 3}
+  homeSpace: {fileID: 8598195061674830605, guid: c1443e73eaf4d064799e31e9aa1f4b95,
+    type: 3}
+  gamePiece: {fileID: 3238470388152199000, guid: 6c101a9d316b2c04b88a71c3fd692a85,
+    type: 3}
+  centerSpace: {fileID: 1232744957356000430, guid: 3b3994187adb6d149bb88870344152b5,
+    type: 3}
+  redMat: {fileID: 2100000, guid: 99ef4654a8754a344833c52f57977c52, type: 2}
+  blueMat: {fileID: 2100000, guid: c174312885c93ea489048535a4f73022, type: 2}
+  greenMat: {fileID: 2100000, guid: f5266693a42d5ca4987986ffdae566f3, type: 2}
+  yellowMat: {fileID: 2100000, guid: 507ca0eb3631a5740a5a2fa9a7eaf32e, type: 2}
+  boardMat: {fileID: 2100000, guid: 59c50ff548e345141b5e0d6644bf79e8, type: 2}
+  deckMat: {fileID: 2100000, guid: bdccab08ebade524a8f18efc3b5abd80, type: 2}
+  cardDeck: {fileID: 7063921819001633157, guid: 8abff5baa8398ad4d86d1a5055c9f8ff,
+    type: 3}
